@@ -44,7 +44,7 @@ nav {
 
 nav a{
     display: block;
-    color: var(nav-link-color);
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
