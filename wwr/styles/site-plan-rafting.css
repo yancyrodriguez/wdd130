@@ -6,8 +6,8 @@
     --accent1-color: #ffffff;
     --accent2-color: #38b000;
 
-    --heading-font:'Open+Sans', Serif;
-    --paragraph-font:'Roboto', Serif
+    --heading-font: 'Open+Sans', Serif;
+    --paragraph-font: 'Roboto', Serif;
 
     --nav-background-color: #70e000;
     --nav-link-color: #e9f4e4;
@@ -22,8 +22,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--primary-color)
-    color var(--paragraph-font)
+    font-family: var(--heading-font)
+    color var(--primary-color)
 }
 
 header {
@@ -50,10 +50,10 @@ nav a{
 }
 
 nav a:link, nav a:visited {
-    color: var(nav-link-color);
+    color: var(--nav-link-color);
 }
 
 nav a:hover {
-    color: var(nav-hover-link-color);
-    background-color: var(nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
