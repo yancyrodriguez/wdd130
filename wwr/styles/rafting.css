@@ -18,7 +18,7 @@
 header {
     padding : 20px;
     width : 920px;
-    background-color : #68c8ee;
+    background-color : #381111;
     }
 
 body {
@@ -45,7 +45,7 @@ body {
     color : var(--primary-color);
     top : 5px;
     left : 300px;
-    background-color : #523535e9;
+    background-color : #3f2929e9;
     }
 
 .hero article {
@@ -74,3 +74,8 @@ footer {
 a:link {
     text-decoration : none;
     }
+
+footer img {
+    width: 5%;
+
+}
