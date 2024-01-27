@@ -15,16 +15,13 @@
     --nav-hover-background-color: #ee9696;
 }
 
-a {
-    text-decoration: no;
-}
 
 .hero img h1 {
-    position: relative;
+    position: absolute;
 }
 
 .article img {
-    position: relative;
+    position: absolute;
 }
 
 .hero img {
@@ -39,7 +36,12 @@ footer {
 	margin: 1rem;
 	border-top: 1px solid #000;
 	padding: 0.5rem;
-	color: navy;
+	color: rgb(16, 210, 236);
 	font-weight: 700;
 	font-style: italic;
+}
+
+footer a {
+    color:#000;
+    text-decoration:none;
 }
