@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,300;1,500&display=swap');
 
 :root {
-    --primary-color: #2e5508;
-    --secondary-color: #007200;
-    --accent1-color: #150303;
+    --primary-color: #d8e91e;
+    --secondary-color: #f2e76be9;
+    --accent1-color: #302020;
     --accent2-color: #38b000;
 
     --heading-font: 'Open+Sans', Serif;
@@ -18,9 +18,10 @@
 header {
     padding : 20px;
     width : 920px;
-    background-color : #00fe77;
+    background-color : #68c8ee;
     }
-    body {
+
+body {
     text-align : center;
     margin : 0 auto;
     padding : 20px;
@@ -28,49 +29,48 @@ header {
     color : var(--accent1-color);
     }
 
-    .hero {
+.hero {
     position : relative;
     margin-top : 20px;
     }
 
-    .hero img {
+.hero img {
     display : block;
     width : 100%;
     height : auto;
     }
 
-    .hero h1 {
+.hero h1 {
     position : absolute;
     color : var(--primary-color);
     top : 5px;
-    left : 400px;
-    background-color : #308818;
-    opacity : 0.6;
+    left : 300px;
+    background-color : #523535e9;
     }
 
-    .hero article {
+.hero article {
     position : absolute;
     top : 50%;
     left : 400px;
-    background-color : #3fd03f;
+    background-color : #d8e91e;
     opacity : 0.7;
     }
 
-    .hero article img {
+.hero article img {
     float : right;
-    width : 50%;
+    width : 35%;
     }
 
-    h1, h2, h3, h4 {
+h1, h2, h3, h4 {
     color : var(--secondary-color);
     }
 
-    footer {
+footer {
     margin-top : 1rem;
-    border-top : 2px solid #e9a69d;
+    border-top : 2px solid #73caf9e9;
     text-align : center;
     }
 
-    a:link {
+a:link {
     text-decoration : none;
     }
