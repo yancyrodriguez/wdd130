@@ -43,5 +43,9 @@ footer {
 
 footer a {
     color:#000;
-    text-decoration:none;
+    text-decoration: none;
+}
+
+#hero-img {
+    width: 80px;
 }
