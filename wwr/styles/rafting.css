@@ -3,7 +3,7 @@
 :root {
     --primary-color: #2e5508;
     --secondary-color: #007200;
-    --accent1-color: #ffffff;
+    --accent1-color: #150303;
     --accent2-color: #38b000;
 
     --heading-font: 'Open+Sans', Serif;
@@ -70,7 +70,7 @@ header {
     border-top : 2px solid #A54C40;
     text-align : center;
     }
-    
+
     a:link {
     text-decoration : none;
     }
