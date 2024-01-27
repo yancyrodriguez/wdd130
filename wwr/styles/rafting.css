@@ -45,6 +45,10 @@ a {
 
 .hero img {
     display: block;
-    width: 25%;
+    width: 50%;
     height: auto;
+}
+
+.hero {
+    position: absolute;
 }
