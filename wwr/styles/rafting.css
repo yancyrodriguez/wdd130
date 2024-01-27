@@ -27,15 +27,18 @@ header {
     max-width : 960px;
     color : var(--accent1-color);
     }
+
     .hero {
     position : relative;
     margin-top : 20px;
     }
+
     .hero img {
     display : block;
     width : 100%;
     height : auto;
     }
+
     .hero h1 {
     position : absolute;
     color : var(--primary-color);
@@ -44,6 +47,7 @@ header {
     background-color : #FECF00;
     opacity : 0.6;
     }
+
     .hero article {
     position : absolute;
     top : 50%;
@@ -51,18 +55,22 @@ header {
     background-color : #FECF00;
     opacity : 0.7;
     }
+
     .hero article img {
     float : right;
     width : 50%;
     }
+
     h1, h2, h3, h4 {
     color : var(--secondary-color);
     }
+
     footer {
     margin-top : 1rem;
     border-top : 2px solid #A54C40;
     text-align : center;
     }
+    
     a:link {
     text-decoration : none;
     }
