@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,300;1,500&display=swap');
+
+:root {
+    --primary-color: #70e000;
+    --secondary-color: #007200;
+    --accent1-color: #ffffff;
+    --accent2-color: #38b000;
+
+    --heading-font: 'Open+Sans', Serif;
+    --paragraph-font: 'Roboto', Serif;
+
+    --nav-background-color: #70e000;
+    --nav-link-color: #e9f4e4;
+    --nav-hover-link-color: #70e000;
+    --nav-hover-background-color: #ffffff;
+}
+
+a {
+    text-decoration: no;
+}
+
+.hero img h1 {
+    position: absolute;
+}
+
+.article img {
+    position: absolute;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
