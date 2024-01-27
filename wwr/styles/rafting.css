@@ -15,21 +15,6 @@
     --nav-hover-background-color: #ee9696;
 }
 
-
-.hero img h1 {
-    position: absolute;
-}
-
-.article img {
-    position: absolute;
-}
-
-.hero img {
-    display: block;
-    width: 50%;
-    height: auto;
-}
-
 footer {
 	position: inherit;
 	bottom: 0;
@@ -44,10 +29,6 @@ footer {
 footer a {
     color:#000;
     text-decoration: none;
-}
-
-#hero-img {
-    width: 50px;
 }
 
 body {
