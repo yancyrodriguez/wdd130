@@ -49,6 +49,14 @@ nav a {
     color: var(--primary-color)
 }
 
+.box {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+}
+
+figure img {
+    max-width: 120px;
+}
 .hero {
     position : relative;
     margin-top : 20px;
