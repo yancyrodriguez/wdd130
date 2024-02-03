@@ -16,10 +16,17 @@
 }
 
 header {
+    display: grid;
+    grid-template-columns: 25% 75%;
     padding : 20px;
-    width : 920px;
+    width : auto;
     background-color : #381111;
+    font-size: large;
     }
+
+header img {
+    grid-column: 1/2;
+}
 
 body {
     text-align : center;
@@ -28,6 +35,14 @@ body {
     max-width : 960px;
     color : var(--accent1-color);
     }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 2/3;
+}   
 
 .hero {
     position : relative;
