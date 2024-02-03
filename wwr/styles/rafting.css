@@ -102,11 +102,16 @@ footer {
     border-top : 2px solid #73caf9e9;
     }
 
+.sociallinks {
+    display: flex;
+    justify-content: end;
+}
+
 a:link {
     text-decoration : none;
     }
 
 footer img {
-    width: 5%;
+    width: 35%;
 
 }
