@@ -44,6 +44,11 @@ nav {
     grid-column: 2/3;
 }   
 
+nav a {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color)
+}
+
 .hero {
     position : relative;
     margin-top : 20px;
