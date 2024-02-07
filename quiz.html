@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 130 | Quiz Form</title>
+        <meta name="author" content="Yancy Rodriguez">
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+    <header>
+        <h1>Basic HTML and CSS Quiz</h1>
+    </header>
+    <main>
+    <form>
+        <form action="submit_quiz.php" method="post">
+
+            <!-- Question 1: Fill in the blank -->
+            <label for="q1">1. Fill in the blank: HTML stands for <span class="required">*</span></label>
+            <input type="text" id="q1" name="q1" required>
+
+
+            <!-- Question 2: Short answer -->
+    <label for="q2">2. Explain the purpose of the CSS box model:</label>
+    <textarea id="q2" name="q2" rows="4" required></textarea>
