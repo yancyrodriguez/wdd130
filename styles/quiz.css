@@ -36,14 +36,6 @@ form {
     display: grid;
 }
 
-fieldset {
-    display: grid;
-    grid-gap: .5rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-}
-
 legend {
     padding: 0.5rem;
     color: navy;
@@ -72,7 +64,7 @@ input[type="checkbox"] {
 
 button {
     margin: 1rem;
-    background-color: navy;
+    background-color: rgb(32, 174, 244);
     color: #fff;
     border: none;
     border-radius: .5rem;
