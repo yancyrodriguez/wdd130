@@ -24,7 +24,7 @@ h1 {
     margin: 1rem;
     font-size: 1.5em;
     color: rgb(19, 4, 107);
-    text-align: left;
+    text-align: center;
 }
 
 form {
@@ -99,11 +99,3 @@ footer {
     align-items: center;
 }
 
-.column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
-}
-
-.column2 {
-    grid-template-columns: 1fr 2fr;
-}
