@@ -4,22 +4,29 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>WDD 130 | HTML Form - User Poll</title>
+        <meta name="author" content="Yancy Rodriguez">
+        <link rel="stylesheet" href="styles/poll-form.css">
     </head>
     <body>
         <header>
             <h1>WDD 130 | Yancy Rodriguez | HTML Form - User Poll</h1>
         </header>
         <main>
-            <form>
+        <form>
 
                 <fieldset>
 
-                    <legend>Contact Information</legend>  
-                    <label>Full Name:<input type="text" name="fullname"></label>
-                    <label>Email:<input type="email" name="useremail"></label>
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2"> 
+                        <label>Full Name:<input type="text" name="fullname"></label>
+                    </div>
+                    <div class="form-item column2">
+                        <label>Email:<input type="email" name="useremail"></label>
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>Questions</legend>
+                    <div class="column1">
                     <label for="browser">What is your favorite internet browser?</label>
                     <select id="browser" name="browser">
 
@@ -30,13 +37,16 @@
                         <option value="brave">Brave</option>
                         <option value="other">Other</option> 
                     </select>
+                    </div>
+                    <div class="column1">
                     <label for="pet">Do you have a household pet?</label>
                     <input type="checkbox" id="pet" name="pet">
                     <label for="feedback">List the places you have lived:</label>
                     <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+                    </div>
                 </fieldset>
             <buttom type="submit">Submit Poll</buttom>
-            </form>
+        </form>
         </main>
     <footer>
         <p>©️2024 | HTML Form - User Poll Activity | Yancy Rodriguez</p>
