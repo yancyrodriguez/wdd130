@@ -43,14 +43,25 @@
                 <label>Email:<input type="email" name="useremail"></label>
             </div>
 
+            <div>
             <label for> Purpose of the Message</label>
             <select id="q3" name="q3" required>
+            </div>
 
                 <option value="" disabled selected>Select an option</option>
-                <option value="cascading-style-sheets">General Information</option>
-                <option value="central-style-system">Type of Services</option>
-                <option value="computer-style-syntax">Reservations</option>
+                <option value="general-information">General Information</option>
+                <option value="type-of-services">Type of Services</option>
+                <option value="reservations">Reservations</option>
+
             </select>
+            <div>
+                <label for="q2">Message</label>
+                <textarea id="q2" name="q2" rows="4" required></textarea>
+            </div>
+            <div>
+            <label for="q4">Please subscribe me to the monthly newsletter<input type="checkbox" id="suscribe" name="suscribe"></label>
+            </div>
+            <button type="submit">Submit Quiz</button>
         </fieldset>
     </form>
             
