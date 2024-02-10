@@ -20,7 +20,7 @@ header {
     grid-template-columns: 20% 70%;
     padding : 20px;
     width : auto;
-    background-color : #121111f6;
+    background-color : #241515f6;
     font-size: large;
     }
 
@@ -58,7 +58,7 @@ nav a {
 }
 
 figure img {
-    max-width: 75px;
+    max-width: 200px;
 }
 
 .hero {
