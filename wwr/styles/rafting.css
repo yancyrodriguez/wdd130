@@ -170,7 +170,7 @@ button:hover {
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #0ed7fb; /* Color de fondo general */
+    background-color: #fff; /* Color de fondo general */
   }
   
   main {
@@ -194,7 +194,7 @@ body {
   
   legend {
     font-weight: bold;
-    color: #333; /* Color del texto de la leyenda */
+    color: #333;
   }
   
   label {
