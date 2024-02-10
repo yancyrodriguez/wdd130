@@ -124,7 +124,7 @@ form {
     padding: 3rem;
     border: 2px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
-    background-color: #eee;
+    background-color: #05dae2;
     display: grid;
 }
 
@@ -170,7 +170,7 @@ button:hover {
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4; /* Color de fondo general */
+    background-color: #0ed7fb; /* Color de fondo general */
   }
   
   main {
