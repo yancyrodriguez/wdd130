@@ -206,7 +206,7 @@ body {
   }
   
   button {
-    background-color: #ef6da7; /* Color de fondo del botón */
+    background-color: #0c0a85; /* Color de fondo del botón */
     color: #fff; /* Color del texto del botón */
     padding: 10px 15px;
     border: none;
@@ -216,7 +216,7 @@ body {
   }
   
   button:hover {
-    background-color: #f1b7d1; /* Color de fondo del botón al pasar el mouse */
+    background-color: #7d7979; /* Color de fondo del botón al pasar el mouse */
   }
   
   .map {
