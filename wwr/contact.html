@@ -19,53 +19,57 @@
         </nav>
      </header>
 
-    <main>    
-      
-        <h1> Contact Us</h1>
-        <h2>We love questions and feedback and we're always happy to help! Here are some ways to contact us.</h2>
-        
-        <h3>Send Us a Message</h3>
-        <p>Central America Rafting</p>
-        <p>Phone: 800-700-6773</p>
-        <p>Email: centralamerica@rafting.es</p>
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1293937.5122762055!2d-89.44071545574916!3d14.109515168444952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62e20d069aa36d%3A0xc3fef37a65b6f109!2sRio%20Lempa!5e0!3m2!1sen!2ssv!4v1707451966852!5m2!1sen!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                    <div class="contact">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="email">Email Adress:</label>
+                    <input type="text" id="email" name="email">
+                    <label for="option">Select an option:</label>
+                        <select id="option" name="option">
+                        <option value="first">General Inquiry</option>
+                        <option value="second">Questions</option>
+                        <option value="third">Suggestions</option>
+                        </select>
+                    </div>
+            </fieldset>
 
-        </div>
-    <form>
-        <fieldset>
+            <fieldset>
+                <legend>Comments or Questions</legend>
+                <div class="comments">
+                    <label for="message">Do you have additional comment?</label>
+                    <textarea id="message" name="message" rows="6" placeholder="message"></textarea>
+                    <label for="suggestion">Do you have a web suggestion?</label>
+                    <textarea id="suggestion" name="suggestion" rows="6" placeholder="suggestion"></textarea>
+                </div>
+            </fieldset>
 
-            <legend>Contact Information</legend>
-            <div class="form-item column2"> 
-                <label>Full Name:<input type="text" name="fullname"></label>
-            </div>
-            <div class="form-item column2">
-                <label>Email:<input type="email" name="useremail"></label>
-            </div>
-
-            <div>
-            <label for> Purpose of the Message</label>
-            <select id="q3" name="q3" required>
-            </div>
-
-                <option value="" disabled selected>Select an option</option>
-                <option value="general-information">General Information</option>
-                <option value="type-of-services">Type of Services</option>
-                <option value="reservations">Reservations</option>
-
-            </select>
-            <div>
-                <label for="q2">Message</label>
-                <textarea id="q2" name="q2" rows="4" required></textarea>
-            </div>
-            <div>
-            <label for="q4">Please subscribe me to the monthly newsletter<input type="checkbox" id="suscribe" name="suscribe"></label>
-            </div>
+            <fieldset>
+                <legend>Follow Us</legend>
+                <div class="followus">
+                  <input type="checkbox" id="subscription" name="subscription">
+                  <label for="subscription">Please subscribe me to the monthly newsletter</label>
+                </div>
+            </fieldset>
+                       
             <button type="submit">Submit</button>
-        </fieldset>
-    </form>
-            
+        </form>
+        
+        <h2>Contact Info</h2>
+        <p>Email:<a href="mailto:someone@example.com">centralamerica@rafting.es</a></p>
+        <P>Tel: 1 800 700 677</p>
+        <h2>Location</h2>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1547755.1862433057!2d-89.82371816833415!3d13.89732796844477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62e20d069aa36d%3A0xc3fef37a65b6f109!2sRio%20Lempa!5e0!3m2!1sen!2ssv!4v1707579258739!5m2!1sen!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p>Rio Lempa, El Salvador</p>
+               
     </main>
+
+    
         <footer>
               <p>©️2024 🚣‍♂️ Central America Rafting 🚣‍♂️ Yancy Rodriguez</p>  
               <nav class="sociallinks">
