@@ -20,7 +20,7 @@ header {
     grid-template-columns: 20% 70%;
     padding : 20px;
     width : auto;
-    background-color : #381111;
+    background-color : #473636f6;
     font-size: large;
     }
 
@@ -124,7 +124,7 @@ form {
     padding: 3rem;
     border: 2px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
-    background-color: #05dae2;
+    background-color: #aee8ea;
     display: grid;
 }
 
@@ -156,7 +156,7 @@ input[type="checkbox"] {
 
 button {
     margin: 2rem;
-    background-color: rgb(32, 174, 244);
+    background-color: rgb(3, 1, 11);
     color: #fff;
     border: none;
     border-radius: .5rem;
@@ -194,13 +194,13 @@ body {
   
   legend {
     font-weight: bold;
-    color: #333;
+    color: #101010;
   }
   
   label {
     display: block;
     margin-bottom: 5px;
-    color: #555; /* Color del texto de las etiquetas */
+    color: #242323; /* Color del texto de las etiquetas */
   }
   
   input,
