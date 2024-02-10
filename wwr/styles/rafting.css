@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,300;1,500&display=swap');
 
 :root {
-    --primary-color: #d8e91e;
-    --secondary-color: #f2e76be9;
+    --primary-color: #fefefe;
+    --secondary-color: #000000e9;
     --accent1-color: #302020;
     --accent2-color: #38b000;
 
@@ -20,7 +20,7 @@ header {
     grid-template-columns: 20% 70%;
     padding : 20px;
     width : auto;
-    background-color : #473636f6;
+    background-color : #121111f6;
     font-size: large;
     }
 
@@ -56,7 +56,7 @@ nav a {
 }
 
 figure img {
-    max-width: 120px;
+    max-width: 75px;
 }
 
 .hero {
@@ -143,8 +143,8 @@ input, select, textarea {
 }
 
 input[type="checkbox"] {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     vertical-align: bottom;
 }
 
@@ -219,4 +219,8 @@ body {
   
   .map {
     margin-top: 20px;
+  }
+
+  .suscribe {
+    display: flex;  
   }
