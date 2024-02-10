@@ -128,12 +128,6 @@ form {
     display: grid;
 }
 
-legend {
-    padding: 1rem;
-    color: navy;
-    font-size: 1.3em;
-}
-
 label, input, button, select, textarea {
     font-family: Roboto;
 }
@@ -152,16 +146,6 @@ input[type="checkbox"] {
     width: 10px;
     height: 10px;
     vertical-align: bottom;
-}
-
-button {
-    margin: 2rem;
-    background-color: rgb(3, 1, 11);
-    color: #fff;
-    border: none;
-    border-radius: .5rem;
-    padding: .75rem;
-    font-size: 1.2rem;
 }
 
 button:hover {
@@ -187,7 +171,7 @@ body {
   }
   
   fieldset {
-    border: 1px solid #ddd;
+    border: 1px solid #363434;
     padding: 15px;
     border-radius: 5px;
   }
@@ -195,6 +179,7 @@ body {
   legend {
     font-weight: bold;
     color: #101010;
+    font-size: 1.3em;
   }
   
   label {
@@ -219,7 +204,7 @@ body {
   }
   
   button {
-    background-color: #32ee11; /* Color de fondo del botón */
+    background-color: #0f0544; /* Color de fondo del botón */
     color: #fff; /* Color del texto del botón */
     padding: 10px 15px;
     border: none;
@@ -229,7 +214,7 @@ body {
   }
   
   button:hover {
-    background-color: #45a049; /* Color de fondo del botón al pasar el mouse */
+    background-color: #ef6da7; /* Color de fondo del botón al pasar el mouse */
   }
   
   .map {
