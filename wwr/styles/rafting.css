@@ -156,15 +156,15 @@ button:hover {
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #fff; /* Color de fondo general */
+    background-color: #fff; 
   }
   
   main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff; /* Color de fondo del formulario */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para resaltar el formulario */
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   }
   
   form {
@@ -187,7 +187,7 @@ body {
   label {
     display: block;
     margin-bottom: 5px;
-    color: #242323; /* Color del texto de las etiquetas */
+    color: #242323; 
   }
   
   input,
@@ -197,7 +197,7 @@ body {
     padding: 8px;
     box-sizing: border-box;
     margin-bottom: 10px;
-    border: 1px solid #ddd; /* Borde de los campos de entrada */
+    border: 1px solid #ddd; 
     border-radius: 4px;
   }
   
@@ -206,8 +206,8 @@ body {
   }
   
   button {
-    background-color: #0c0a85; /* Color de fondo del botón */
-    color: #fff; /* Color del texto del botón */
+    background-color: #0c0a85; 
+    color: #fff; 
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
@@ -216,7 +216,7 @@ body {
   }
   
   button:hover {
-    background-color: #7d7979; /* Color de fondo del botón al pasar el mouse */
+    background-color: #7d7979; 
   }
   
   .map {
