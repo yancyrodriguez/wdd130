@@ -18,9 +18,9 @@
 header {
     display: grid;
     grid-template-columns: 20% 70%;
-    padding : 20px;
+    padding : 1px;
     width : auto;
-    background-color : #241515f6;
+    background-color : #0c1c82f6;
     font-size: large;
     }
 
@@ -104,8 +104,9 @@ figure img {
     position : absolute;
     color : var(--primary-color);
     top : 5px;
-    left : 300px;
-    background-color : #3f2929e9;
+    left : 250px;
+    text-shadow: 0 0 5px #e6e1ba;
+    color: #080606e9
     }
 
 .hero article {
