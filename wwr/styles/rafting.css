@@ -89,6 +89,18 @@ figure img {
 	opacity: 0.9;
 }
 
+.fullimage h1 {
+    position: absolute;
+    font-size: 30px;
+    text-shadow: 0 0 5px #e6e1ba;
+    top: 50%;
+    left: 36%;
+    color: #0a0702;  
+	padding: 1rem;
+	opacity: 0.9;
+}
+}
+
 .hero h1 {
     position : absolute;
     color : var(--primary-color);
