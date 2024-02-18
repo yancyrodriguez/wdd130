@@ -252,7 +252,12 @@ body {
     background-color: var(--primary-color);
     margin-top: 20px; 
     max-width: 960px;
-    position: relative;                            
+    position: relative;   
+    color: #fff;                         
+}
+
+.trips h4 {
+    color: #fff;
 }
 
 .trips img {
@@ -264,7 +269,7 @@ body {
 .one, .three, .four {
     margin: 0 auto;
     padding: .5rem;      
-    background-color: #dbee5c;
+    background-color: #302020;
     text-align: center;      
 }
 
@@ -273,7 +278,7 @@ body {
 }
 
 .trips a:link, .fullimage a:link {
-    background-color: #52be1c;
+    background-color: #31b317;
     color: #1ad0f0;
     padding: 14px 25px;
     text-align: center;
@@ -358,4 +363,30 @@ body {
     margin: 0;  
 }
 
-	
+table, td {
+    font-family: var(--paragraph-font);
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 700px;
+    color: var(--primary-color);
+    background-color: #31b317;
+    font-size: 15px;
+}
+
+th {
+    color: #f4f1f1;
+    background-color: #000000;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+}
+
+td {
+    background-color: #0f0606;
+    opacity: 0.8;
+}
+
+tr:hover {
+    background-color: #645f5f;
+}
