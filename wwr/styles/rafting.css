@@ -99,7 +99,6 @@ figure img {
 	padding: 1rem;
 	opacity: 0.9;
 }
-}
 
 .hero h1 {
     position : absolute;
@@ -276,11 +275,11 @@ body {
     margin-top: 20px; 
     max-width: 960px;
     position: relative;   
-    color: #fff;                         
+    color: #0d0c0c;                         
 }
 
 .trips h4 {
-    color: #fff;
+    color: #141313;
 }
 
 .trips img {
@@ -292,7 +291,7 @@ body {
 .one, .three, .four, .description, .description2 {
     margin: 0 auto;
     padding: .5rem;      
-    background-color: #302020;
+    background-color: #f8f2f2;
     text-align: center;      
 }
 
