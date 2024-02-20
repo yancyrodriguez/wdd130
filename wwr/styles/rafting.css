@@ -403,14 +403,14 @@ table, td {
     max-width: 700px;
     color: var(--primary-color);
     background-color: #53bd81;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 th {
     color: #f4f1f1;
     background-color: #000000;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     padding: 10px;
 }
 
